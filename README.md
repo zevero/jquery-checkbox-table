@@ -1,7 +1,7 @@
 # jquery-checkbox-table
 A table (matrix) of checkboxes with tristate support jquery plugin
 
-### Whay another one?
+### Why another one?
 
 It supports
  - tristate checkboxes
@@ -21,15 +21,16 @@ It supports
        lax: true or false
      });
      // ... later
-     $('#container').checkbox_table(); // returns {matrix: [][], cols: , rows:}
+     $('#container').checkbox_table(); // returns {matrix: [][], cols: [], rows:[]}
 
  - lax=true will not reset data if the same number of cols and rows are given.
  - set=function(x,y){return (x===y)?1:0;} //will check diagonally
- - tristate=true will enable a indeterminate checkbox (with value of -1)
+ - tristate=true will enable an indeterminate checkbox (with value of -1)
  - returned matrix or set is a 2D-array with 1...checked, 0...unchecked, -1...indeterminate
 
 ### Bower
-bower install jquery-checkbox-table
+
+    bower install jquery-checkbox-table
 
 ### Thanks
 https://css-tricks.com/indeterminate-checkboxes/
