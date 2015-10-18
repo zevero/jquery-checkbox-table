@@ -14,10 +14,10 @@ It supports
 ### Usage
 
      $('#container').checkbox_table({
-       cols: 'text' or $obj or number,
-       rows: 'text' or $obj or number,
+       cols: ['text'] or [$obj] or number,
+       rows: ['text'] or [$obj] or number,
        tristate: true or false,
-       set:  data[][] or function(x, y){},
+       set:  [][] or function(x, y){},
        lax: true or false
      });
      // ... later
