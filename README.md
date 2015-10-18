@@ -1,5 +1,5 @@
 # jquery-checkbox-table
-A table (matrix) of checkboxes with tristate support
+A table (matrix) of checkboxes with tristate support jquery plugin
 
 ### Whay another one?
 
@@ -29,7 +29,7 @@ It supports
  - returned matrix or set is a 2D-array with 1...checked, 0...unchecked, -1...indeterminate
 
 ### Bower
-npm install jquery-checkbox-table
+bower install jquery-checkbox-table
 
 ### Thanks
 https://css-tricks.com/indeterminate-checkboxes/
